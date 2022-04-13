@@ -1,10 +1,15 @@
 import React from "react";
 
-function Project() {
+function Project(props) {
     return (
-        <div>
-            Project
-        </div>
+        <>
+            {props.projects.map((project)=> (
+                <div>
+                    <h3>{project.title}</h3>
+                    <p>{project.description}</p>
+                </div>
+            ))}
+        </>
     )
 }
 

@@ -40,6 +40,7 @@ function Contact() {
     return (
         <section className="contact content" id="contact">
             <h1>Contact Me</h1>
+            {/* form */}
             <form id="contact-form" onSubmit={handleSubmit}>
                 <div>
                     <label htmlFor="name">Name:</label>
@@ -62,6 +63,7 @@ function Contact() {
                 <button type="submit">Submit</button>
             </form>
             <br></br>
+            {/* personal contact info */}
             <h2 className="left-title">
                 My Personal Contact Info
             </h2>
