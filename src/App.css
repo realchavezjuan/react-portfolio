@@ -1,3 +1,13 @@
+:root {
+  --react-bg-color: #282c34;
+  --site-bg-color: #3e535f;
+  --main-bg-color: #32434d;
+  --secondary-bg-color: #848C8E;
+  --tertiary-bg-color: #BFB7B6;
+  --cream-color: #F1F2EE;
+  --accent-color: #DCF763;
+}
+
 .App {
   text-align: center;
 }
@@ -26,6 +36,26 @@
 
 .App-link {
   color: #61dafb;
+}
+header {
+
+}
+body {
+  background-color: var(--main-bg-color);
+  color: var(--cream-color);
+}
+
+a {
+  text-decoration: none;
+  color: var(--tertiary-bg-color)
+}
+
+a:hover {
+  color: var(--accent-color)
+}
+
+footer {
+  color: var(--secondary-bg-color);
 }
 
 @keyframes App-logo-spin {

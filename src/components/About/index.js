@@ -6,9 +6,9 @@ function About() {
             <h2 className="left-title">
                 ABOUT
             </h2>
-            <p>
+            <h3>
                 Hello, I am a developer in the making. This page is to showcase my future projects and where you can find my contact info.
-            </p>
+            </h3>
         </section>
     )
 }
