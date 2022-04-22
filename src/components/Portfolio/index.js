@@ -4,21 +4,20 @@ import Project from "../Project";
 function Portfolio(){
     const projects = [
         {
-            title: "project one",
-            description: "fun"
+            title: "Spelling-Bee",
+            description: "This game was created to test your spelling skills. Set a high score by correctly spelling as many words as you can.",
+            url: "https://chriskurz098.github.io/Spelling-Bee/"
         },
         {
-            title: "project two",
-            description: "exciting"
+            title: "Learn It",
+            description: "An interactive educational forum for exploring web development languages!",
+            url: "https://damp-journey-96412.herokuapp.com/"
         },
         {
-            title: "project three",
-            description: "challenging"
-        },
-        {
-            title: "project four",
-            description: "easy"
-        },
+            title: "BeatHub",
+            description: "Coming soon!",
+            url: "https://blooming-tundra-89879.herokuapp.com/"
+        }
     ]
 
     return (

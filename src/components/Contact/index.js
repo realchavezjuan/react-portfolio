@@ -68,9 +68,8 @@ function Contact() {
                 My Personal Contact Info
             </h2>
             <div className="contact-content">
-                <email id="email"><b>Email </b><a href="email@email.com">email@email.com</a></email>
-                <p><b>Phone </b><a href="tel:+18888888888">888.888.8888</a></p>
-                <p><b>Address </b>Salem, OR</p>
+                <p><b>Email </b><a href="realchavezjuan@gmail.com">realchavezjuan@email.com</a></p>
+                <p><b>Based in </b>Salem, OR</p>
             </div>
         </section>
     )
